@@ -1,0 +1,365 @@
+@import url("../stylesheet/reset.css");
+@import url("../stylesheet/flex.css");
+@import url("../stylesheet/global.css");
+
+/* custom-style */
+
+* {
+  box-sizing: border-box;
+}
+
+.hover:hover {
+  color: #ea553a;
+}
+.active {
+  color: #ea553a;
+}
+
+.red {
+  color: #ea553a;
+}
+.white {
+  color: white;
+}
+.black {
+  color: #232d38;
+}
+.text-color {
+  color: #878787;
+}
+.span-color {
+  color: #2e83ff;
+  font-size: 16px;
+}
+.font-size {
+  font-size: 16px;
+}
+.font-weight {
+  font-weight: 600;
+}
+.margin {
+  margin: 20px 0;
+}
+.margin-top {
+  margin-top: 50px;
+}
+/* header */
+header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  padding: 15px 0;
+}
+.header-nav {
+}
+
+.header-brand {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+.studio {
+  color: #ea553a;
+}
+.sign-up {
+  font-weight: 600;
+}
+.header-link {
+  margin-left: 10px;
+}
+.header-link:hover {
+  color: #ea553a;
+}
+
+/* main--hero-section */
+
+.hero-section {
+  width: 100%;
+  position: relative;
+  /* border: 1px solid black; */
+}
+.hero-fig {
+  /* width: 100%; */
+  /* height: 100%; */
+}
+.hero-overlay {
+  width: 100%;
+  height: 95%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-txt {
+  /* border: 1px solid white; */
+  text-align: center;
+  position: absolute;
+  top: 43%;
+  left: 15%;
+}
+.hero-sub-heading {
+  font-size: 20px;
+}
+.hero-h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+  margin: 10px 0;
+}
+
+/* about-section */
+.about-section {
+  margin: 40px 0;
+}
+.about-heading-box {
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.about-h2 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+/* program */
+.pro-div {
+  margin-top: 30px;
+}
+
+.program-box {
+  /* height: 100px; */
+  /* border: 1px solid black; */
+}
+.img-heading-txt-box {
+  /* border: 1px solid black; */
+  /* height: 100px; */
+  margin: 10px 0;
+}
+.heading-txt-box {
+  /* border: 1px solid black; */
+  padding-left: 10px;
+  height: 100px;
+}
+.about-h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/* dont-think -section */
+
+.dont-think-section {
+  width: 100%;
+  position: relative;
+}
+.cat-img-div {
+  width: 100%;
+}
+.dont-think-sec-heading-box {
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+.dont-think-sec-h4 {
+  font-size: 25px;
+  font-weight: 900;
+  color: white;
+}
+
+/*  classes-section */
+
+.class-section {
+  margin: 40px 0;
+}
+
+.our-class {
+  text-align: center;
+}
+
+.traning-class-40 {
+  /* border: 1px solid black; */
+  padding: 10px 0;
+  box-shadow: 0 0 5px 3px rgb(218, 217, 214);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.class-40-img {
+  width: 60px;
+  height: 60px;
+}
+.class-h3 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-left: 20px;
+}
+.btn-40 {
+  width: 100%;
+  padding: 20px 0;
+  /* box-shadow: 0 0 5px 3px rgb(136, 126, 86); */
+  border-radius: 4px;
+}
+.btn-40 a {
+  font-size: 25px;
+  font-weight: 900;
+}
+.traning-class-55 {
+  /* border: 1px solid black; */
+}
+
+.class-55-img {
+  width: 100%;
+  height: 50%;
+  border-radius: 4px;
+}
+.class-55-h4 {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+/* schedule-section */
+
+.schedule-section {
+  width: 100%;
+  position: relative;
+}
+.schedule-img-box {
+  width: 100%;
+}
+.classes-schedule {
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 14%;
+}
+
+.schedule-h2 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  color: white;
+  font-size: 20px;
+  margin: 20px 0;
+}
+tr td {
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px;
+  color: white;
+}
+
+/* training-section */
+.training-section {
+  margin: 50px 0;
+}
+
+.training-heading-box {
+  text-align: center;
+}
+.training-h2 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.trainer-container {
+  margin-top: 30px;
+}
+.trainer {
+  /* height: 50px; */
+  /* border: 1px solid black; */
+  box-shadow: 0 0 3px 3px rgb(233, 231, 231);
+  padding: 15px;
+  border-radius: 4px;
+}
+.trainer-img-name {
+  width: 95%;
+  /* border: 1px solid green; */
+  margin: 0 auto;
+}
+.trainer-type {
+  font-weight: 700;
+}
+h5 {
+  font-size: 23px;
+  font-weight: 800;
+}
+.fab {
+  margin-right: 10px;
+}
+
+/* contact-section */
+
+.contact-section {
+  width: 100%;
+  position: relative;
+}
+.contact-div {
+  width: 50%;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+form {
+  width: 80%;
+  height: 95%;
+  /* border: 1px solid green; */
+  position: absolute;
+  top: 2%;
+  left: 10%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+.input {
+  width: 48%;
+  padding: 20px;
+  font-size: 16px;
+  color: #878787;
+  box-shadow: 0 0 1px 1px rgb(185, 183, 183);
+  border: none;
+  font-weight: 600;
+  /* margin-left: 8px; */
+}
+.email {
+  margin-left: 13px;
+}
+.sub {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  margin: 20px 0;
+  color: #878787;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 0 1px 1px rgb(185, 183, 183);
+}
+textarea {
+  width: 100%;
+  text-align: left;
+  box-shadow: 0 0 1px 1px rgb(185, 183, 183);
+  border: 0;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #878787;
+  padding-left: 20px;
+  resize: none;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
